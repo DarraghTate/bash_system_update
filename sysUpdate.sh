@@ -18,14 +18,14 @@ blue="\033[0;36m"
 noColour="\033[0m"
 
 # Strings for telling the user where they are in the upgrade process. Colour coded as above.
-startingProcess="$red\n-------------Update Process Starting Shortly - Press Ctrl + C to Cancel-------------\n"
-processCommencing="$red\n-----------------------------Update Process Starting Now----------------------------" 
-updating="$blue\n---------------------------------------Update---------------------------------------$noColour\n"
-fullUpgrading="$blue\n------------------------------------Full Upgrade------------------------------------$noColour\n"
-autoRemoving="$green\n-------------------------------------Autoremove-------------------------------------$noColour\n"
-cleaning="$green\n---------------------------------------Clean----------------------------------------$noColour\n"
-autoCleaning="$green\n-------------------------------------Autoclean--------------------------------------$noColour\n"
-processComplete="$red\n------------------------------Update Process Complete-------------------------------\n"
+startingProcess="$red\n-----------Update Process Starting Shortly - Press Ctrl + C to Cancel-----------\n"
+processCommencing="$red\n---------------------------Update Process Starting Now--------------------------" 
+updating="$blue\n-------------------------------------Update-------------------------------------$noColour\n"
+fullUpgrading="$blue\n----------------------------------Full Upgrade----------------------------------$noColour\n"
+autoRemoving="$green\n-----------------------------------Autoremove-----------------------------------$noColour\n"
+cleaning="$green\n-------------------------------------Clean--------------------------------------$noColour\n"
+autoCleaning="$green\n-----------------------------------Autoclean------------------------------------$noColour\n"
+processComplete="$red\n----------------------------Update Process Complete-----------------------------\n"
 
 # Used in the timer() function. Is instantiated to be of a given length, and is reducted on each iteration to tell the user when the process will start
 countdownString="$red #"
