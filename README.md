@@ -4,6 +4,6 @@ To use, in a Linux environment navigate to the folder containing the file and in
 
     bash sysUpdate.sh
 
-Testing was done via shellcheck - <i><b>https://github.com/koalaman/shellcheck</b></i>
+Testing was done via [Shellcheck](https://github.com/koalaman/shellcheck).
 
 Testing file included in repo. 
